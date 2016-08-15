@@ -20,6 +20,8 @@ public class EntertainmentActivity extends AppCompatActivity {
                 "(312)787-3100"));
         activities.add(new Activity("Freehand", "$$", "19 E. Ohio Street",
                 "(312)940-3699"));
+        activities.add(new Activity("Freehand", "$$", "19 E. Ohio Street",
+                "(312)940-3699"));
 
         ActivityAdapter adapter = new ActivityAdapter(this, activities, R.color.color_stay);
 
