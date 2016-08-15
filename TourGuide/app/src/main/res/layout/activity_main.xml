@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where to stay"
+        android:id="@+id/stay"
+        style="@style/CategoryStyle"
+        android:background="@color/color_stay"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What to do"
+        android:id="@+id/entertainment"
+        style="@style/CategoryStyle"
+        android:background="@color/color_do"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where to shop"
+        android:id="@+id/shop"
+        style="@style/CategoryStyle"
+        android:background="@color/color_shop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where to eat"
+        android:id="@+id/eat"
+        style="@style/CategoryStyle"
+        android:background="@color/color_eat"/>
+
+</LinearLayout>
